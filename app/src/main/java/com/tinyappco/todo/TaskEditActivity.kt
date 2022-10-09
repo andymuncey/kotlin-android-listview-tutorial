@@ -7,9 +7,12 @@ import android.os.Bundle
 import android.view.View
 import com.tinyappco.todo.databinding.ActivityTaskEditBinding
 
-private lateinit var binding : ActivityTaskEditBinding
+
 
 class TaskEditActivity : AppCompatActivity() {
+
+    private lateinit var binding : ActivityTaskEditBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
